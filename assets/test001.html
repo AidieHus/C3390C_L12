@@ -1,11 +1,27 @@
+<!-- Fix: The <html> element is missing a lang attribute -->
+<!-- Reason: Screen readers rely on the lang attribute to select the appropriate sound library -->
 <html lang="en">
 
 <head>
-  <title>Document</title>
+  <!-- Fix: Missing character encoding declaration -->
+  <!-- Reason: Ensures proper text rendering and prevents issues with special characters -->
+  <meta charset="UTF-8">
+
+  <!-- Fix: Missing viewport meta tag -->
+  <!-- Reason: Ensures the webpage is responsive on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fix: Missing meaningful title -->
+  <!-- Reason: Helps with SEO and accessibility, as it describes the page’s content -->
+  <title>My Webpage</title>
 </head>
 
 <body>
-  Hello World!
-</body>
+  <!-- Fix: No heading structure -->
+  <!-- Reason: Using semantic elements improves readability and accessibility -->
+  <h1>Hello World!</h1>
 
-</html>
+  <!-- Fix: No main landmark -->
+  <!-- Reason: Improves accessibility by defining the main content area -->
+  <main>
+    <p>Welcome to my page
