@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!-- Fix: The <html> element is missing a lang attribute -->
 <!-- Reason: Screen readers rely on the lang attribute to select the appropriate sound library -->
 <html lang="en">
@@ -7,17 +8,21 @@
   <!-- Reason: Ensures proper text rendering and prevents issues with special characters -->
   <meta charset="UTF-8">
 
+  <!-- Fix: Missing X-UA-Compatible meta tag -->
+  <!-- Reason: Ensures the webpage is displayed correctly in Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <!-- Fix: Missing viewport meta tag -->
   <!-- Reason: Ensures the webpage is responsive on mobile devices -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Fix: Missing meaningful title -->
   <!-- Reason: Helps with SEO and accessibility, as it describes the page’s content -->
-  <title>My Webpage</title>
+  <title>Document</title>
 
   <!-- Fix: Missing meta description -->
   <!-- Reason: Meta descriptions help search engines understand page content and improve search ranking -->
-  <meta name="description" content="This is a simple webpage that displays Hello World!">
+  <meta name="description" content="Fixing the issues in the HTML document.">
 </head>
 
 <body>
