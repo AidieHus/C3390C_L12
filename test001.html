@@ -1,36 +1,39 @@
-<!DOCTYPE html>
-<!-- Fix: The <html> element is missing a lang attribute -->
+<!DOCTYPE html> 
+<!-- Fix: Page lacks the HTML doctype (Best Practices) -->
+<!-- Reason: Ensures the browser renders the page in standards mode instead of quirks mode -->
+
+<!-- Fix: The <html> element is missing a lang attribute (Accessibility) -->
 <!-- Reason: Screen readers rely on the lang attribute to select the appropriate sound library -->
 <html lang="en">
 
 <head>
-  <!-- Fix: Missing character encoding declaration -->
+  <!-- Fix: Missing character encoding declaration (Best Practices) -->
   <!-- Reason: Ensures proper text rendering and prevents issues with special characters -->
   <meta charset="UTF-8">
 
-  <!-- Fix: Missing X-UA-Compatible meta tag -->
+  <!-- Fix: Missing X-UA-Compatible meta tag (Best Practices) -->
   <!-- Reason: Ensures the webpage is displayed correctly in Internet Explorer -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- Fix: Missing viewport meta tag -->
-  <!-- Reason: Ensures the webpage is responsive on mobile devices -->
+  <!-- Fix: Missing viewport meta tag (Performance & Best Practices) -->
+  <!-- Reason: Ensures the webpage is responsive on mobile devices and improves layout stability -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Fix: Missing meaningful title -->
+  <!-- Fix: Missing meaningful title (SEO & Accessibility) -->
   <!-- Reason: Helps with SEO and accessibility, as it describes the page’s content -->
   <title>Document</title>
 
-  <!-- Fix: Missing meta description -->
+  <!-- Fix: Missing meta description (SEO) -->
   <!-- Reason: Meta descriptions help search engines understand page content and improve search ranking -->
   <meta name="description" content="Fixing the issues in the HTML document.">
 </head>
 
 <body>
-  <!-- Fix: No heading structure -->
+  <!-- Fix: No heading structure (Accessibility & Best Practices) -->
   <!-- Reason: Using semantic elements improves readability and accessibility -->
   <h1>Hello World!</h1>
 
-  <!-- Fix: No main landmark -->
+  <!-- Fix: No main landmark (Accessibility) -->
   <!-- Reason: Improves accessibility by defining the main content area -->
   <main>
     <p>Welcome to my page!</p>
